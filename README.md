@@ -33,7 +33,16 @@ public class Test3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 String a = "abcddabc";
+		 String b = "abcd cc abcd";
+		 String c = "abcdf cabdc abcdf";
+		 String d = "abcdxyz123cabdcabcd";
+		 String e = "abcdadeatde123cabdcabcdadawdawfwaww";
 		 System.out.println(new Test3().findStr(a).length());
+		 System.out.println(new Test3().findStr(b).length());
+		 System.out.println(new Test3().findStr(c).length());
+		 System.out.println(new Test3().findStr(d).length());
+		 System.out.println(new Test3().findStr(e).length());
+		 
 	}
 
 }
